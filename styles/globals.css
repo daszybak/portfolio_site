@@ -1,9 +1,14 @@
+:root {
+  --text-color: white;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: exo, sans-serif;
   font-size: 62.5%;
+  color: var(--text-color);
 }
 
 a {
@@ -13,4 +18,45 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  font-size: 7.2rem;
+  font-weight: bold;
+  line-height: 1.067;
+  letter-spacing: -0.1rem;
+}
+
+h2 {
+  font-size: 6rem;
+  font-weight: bold;
+  line-height: 1.083;
+  letter-spacing: -0.08rem;
+}
+
+h3 {
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: 1.1;
+  letter-spacing: -0.05rem;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.111;
+  letter-spacing: -0.04rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.125;
+  letter-spacing: -0.02rem;
+}
+
+p {
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+  font-size: 1.6rem;
 }
